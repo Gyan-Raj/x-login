@@ -39,7 +39,7 @@ const Login = () => {
         <p>Welcome, user!</p>
       ) : (
         <>
-          <p>Invalid usename or password</p>
+          <p>Invalid username or password</p>
           <Form
             handleSubmit={handleSubmit}
             handleUsername={handleUsername}
