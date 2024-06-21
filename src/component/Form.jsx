@@ -30,9 +30,7 @@ const Form = ({
           value={password}
           onChange={handlePassword}
         />
-        <button type="submit" onClick={handleSubmit}>
-          Submit
-        </button>
+        <button type="submit">Submit</button>
       </form>
     </div>
   );
