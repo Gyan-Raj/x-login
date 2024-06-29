@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react";
 
 const Form = ({
   handleSubmit,
@@ -24,7 +23,7 @@ const Form = ({
         <label htmlFor="">Password:</label>
         <input
           required={true}
-          type="text"
+          type="password"
           placeholder="password"
           name="password"
           value={password}
